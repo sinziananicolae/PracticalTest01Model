@@ -100,7 +100,6 @@ public class PracticalTest01ModelMainActivity extends Activity {
 					}
 					break;
 			}
-
 		}
 
 		@Override
