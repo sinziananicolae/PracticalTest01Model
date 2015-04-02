@@ -54,4 +54,41 @@
         android:layout_below="@id/right_edit_text"
         android:text="@string/press_me_too" />
 
+    <EditText
+        android:id="@+id/watcher_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/left_button"
+        android:layout_marginTop="28dp"
+        android:inputType="text"
+        android:ems="7" />
+
+    <TextView
+        android:id="@+id/number_of_letters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/watcher_edit_text"
+        android:layout_alignLeft="@+id/right_button"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/watcher_edit_text"/>
+
+    <EditText
+        android:id="@+id/change_button_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/watcher_edit_text"
+        android:layout_marginTop="40dp"
+        android:inputType="text"
+        android:ems="7" />
+
+    <Button
+        android:id="@+id/color_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/change_button_color"
+        android:layout_alignLeft="@+id/number_of_letters"
+        android:layout_marginLeft="24dp" />
+
 </RelativeLayout>

@@ -11,5 +11,6 @@
     <string name="navigate_to_secondary_activity">Navigate to secondary activity</string>
     <string name="title_activity_practical_test01_model_secondary">PracticalTest01ModelSecondaryActivity</string>
     <string name="number_of_clicks">The buttons have been clicked ??? times!</string>
+    <string name="number_of_letters">The inserted word has ??? characters!</string>
 
 </resources>
